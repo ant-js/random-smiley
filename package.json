@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "xx",
+  "name": "random-smiley",
   "version": "0.0.1",
   "scripts": {
     "build": "father-build",
@@ -14,13 +14,14 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-js/ts",
+    "url": "https://github.com/ant-js/random-smiley",
     "branch": "main"
   },
   "author": "xrkffgg",
-  "homepage": "https://github.com/ant-js/ts",
+  "homepage": "https://github.com/ant-js/random-smiley",
   "keywords": [
-    "ts"
+    "ts",
+    "emoji"
   ],
   "files": [
     "dist",
@@ -29,9 +30,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.12.5"
+    "@babel/runtime": "^7.12.5",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.170",
     "@umijs/fabric": "^2.2.2",
     "eslint": "^7.15.0",
     "father-build": "^1.17.2",
